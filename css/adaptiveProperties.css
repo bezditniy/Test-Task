@@ -1,0 +1,388 @@
+@media (max-width: 1350px) {
+
+	.container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .img-size {
+        width: auto;
+    }
+
+    .img-size img {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 54px; 
+        line-height: 52px;
+    }
+
+    h2 {
+        font-size: 36px; 
+        line-height: 42px;
+    }
+
+    .container-content {
+        height: auto;
+    }
+
+    .content-filling {
+        padding: 30px 0px 35px 50px;
+    }
+
+    .partners {
+        justify-content: space-around;
+    }
+
+    .partners-img {
+        width: 160px;
+    }
+
+    .container-content2 {
+        height: auto;
+    }
+
+    .content2 {
+        gap: 40px;
+    }
+
+    .card-content {
+        justify-content: space-around;
+    }
+
+    .card-filling {
+        padding: 0px 0px 50px 0px;
+    }
+
+    .iphone-item {
+        position: static;
+        padding-top: 18%;
+    }
+
+    .bottom-item {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+	.container {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+
+    h1 {
+        font-size: 44px; 
+        line-height: 50px;
+    }
+
+    .navigation {
+        display: block;
+    }
+
+    .menu-list {
+        display: none;
+    }
+
+    .img-size {
+        width: auto;
+    }
+
+    .img-size img {
+        width: 100%;
+    }
+
+    .container-content {
+        height: auto;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content-filling {
+        padding: 30px 40px 30px 40px;
+        width: auto;
+        text-align: center;
+    }
+
+    .partners {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .button-container {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .content2 {
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+
+    .content-filling2 {
+        width: 480px;
+    }
+
+    .card-content {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 20px 40px 20px;
+    }
+
+    .card-filling {
+        padding: 10px 0px 0px 0px;
+        width: 490px;
+    }
+
+    .container-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .container-grid2 {
+        grid-template-columns: 1fr;
+    }
+
+    .container-content3 {
+        height: auto;
+    }
+
+    .iphone-item {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .container-description h2 {
+        line-height: 42px;
+    }
+
+    .form-group {
+        max-width: 500px;
+    }
+
+    .email-form {
+        width: 100%;
+    }
+
+    .spotify-container {
+        padding: 100px 70px 0px 70px;
+    }
+
+    .spotify-item {
+        padding-left: 0px;
+    }
+
+    .menu-container {
+        justify-content: space-around;
+        padding-right: 0;
+    }
+
+    .footer-menu {
+        padding: 0;
+    }
+
+    .footer-privacy {
+        position: relative;
+    }
+
+    .footer-list2 {
+        position: absolute;
+        display: flex;
+        top: 8rem;
+        right: -12rem;
+        width: 330px;
+        justify-content: space-between;
+    }
+
+    .footer-button-container {
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 500px) {
+	.container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .container-content {
+        height: auto;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content-filling {
+        padding: 30px 0px 30px 0px;
+        width: 350px;
+        text-align: center;
+    }
+
+    .partners {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .button-container {
+        flex: 1 auto;
+    }
+
+    .partners-img {
+        width: 160px;
+    }
+
+
+    .container-content2 {
+        height: auto;
+    }
+
+    .content2 {
+        gap: 20px;
+        flex-direction: column-reverse;
+    }
+
+    .content-filling2 {
+        padding: 30px 0px 30px 0px;
+        width: 100%;
+    }
+
+    .card-content {
+        flex-direction: column;
+        height: auto;
+        padding: 30px 10px 40px 10px;
+    }
+
+    .card-filling {
+        width: auto;
+    }
+
+    .item-description {
+        width: auto;
+        padding: 0px 10px 30px 10px;
+    }
+
+    .item-position {
+        padding: 0px 50px 0px 50px
+    }
+
+    
+    .blood-item {
+        position: absolute;
+        left: 17rem;
+        top: -1rem;
+    }
+    
+    .swab-item {
+        position: absolute;
+        left: 13rem;
+    }
+    
+    .urine-item2 {
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+    }
+    
+    .blood-item2 {
+        position: absolute;
+        left: 3rem;
+        top: 12rem;
+    }
+    
+    .swab-item2 {
+        position: absolute;
+        left: 1rem;
+        top: -2rem;
+    }
+    
+    .urine-item3 {
+        position: absolute;
+        right: 2rem;
+        top: 2rem;
+    }
+    
+    .blood-item3 {
+        position: absolute;
+        left: 2rem;
+        top: 2rem;
+    }
+    
+    .swab-item3 {
+        position: absolute;
+        left: 2rem;
+        top: -2rem;
+    }
+
+    .container-description h2 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+    .email-form {
+        width: 100%;
+    }
+
+    .spotify-container {
+        padding: 100px 20px 50px 20px;
+    }
+
+    .spotify-item {
+        padding: 0;
+        width: auto;
+    }
+
+    .menu-container {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .footer-menu {
+        display: none;
+    }
+
+    .footer-privacy {
+        position: static;
+    }
+
+    .footer-list2 {
+        display: inline-flex;
+        gap: 60px;
+        position: relative;
+        top: 21.5rem;
+        right: 0;
+    }
+
+    .footer-button-container {
+        display: none;
+    }
+
+    .line-container {
+        position: relative;
+        top: 16rem;
+    }
+
+    .bottom-item {
+        flex-direction: column;
+        padding: 80px 0px 0px 0px;
+        gap: 40px;
+    }
+
+    .item-links p {
+        font-size: 16px;
+    }
+
+    .rights-container {
+        order: 1;
+    }
+
+}
